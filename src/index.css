@@ -1,1 +1,12 @@
 @import "tailwindcss";
+/* #2bde72 */
+
+@theme {
+  --color-primary: #2bde72;
+  
+}
+
+/* Disable page scroll when navbar/menu is open */
+body.no-scroll {
+  overflow: hidden;
+}
